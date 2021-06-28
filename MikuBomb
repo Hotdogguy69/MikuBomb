@@ -2308,7 +2308,7 @@ end
         print("Advertise -- No Prefix Needed, Declares Supremacy Over All Other Scripts (Can be used as comeback)")
         print(".mikufiesta -- Miku Fiesta!!!")
         print("SimonSays1 -- No Prefix Needed, Requires Input, Attach To BP (hotkey m) When Told To For A Fun Game")
-        print("play (30-34) -- No Prefix Needed, Adds Even More Witty Songs")
+        print("play (30-35) -- No Prefix Needed, Adds Even More Witty Songs")
         print(".bombcmds -- Displays Bomb Commands (WIP)")
         print("")
 		print("----- Modded commands -----")
@@ -2826,7 +2826,7 @@ end
         say("The Jazzy Version Of Play 33 :D.")
 	end
 
-    if msg == "play 34" or msg == ".play 34" then
+    if msg == "play 35" or msg == ".play 35" then
 		game.Players:Chat(":mymusicon 5712532551")
         wait(0.1)
         say("Miku's Singing Go Brrrrrrr")
