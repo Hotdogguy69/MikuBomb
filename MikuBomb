@@ -1,15 +1,17 @@
--- Welcome To MikuCut Or MikuCuts! :D
+-- Welcome To MikuBomb Or MikuCuts! :D
 -- Hope You Enjoy The Script!
 -- Shoutout To Neocuts And Shortcut For Being The Base For This.
 
 local AllowMessages = true -- This cant be toggled when injected!
 local AllowTeleportsToShortcutHub = false -- Disabling this will stop all shortcut game teleports
 
--- Miku Owns this script.
+-- Miku (Hotdogguy123321) Owns this script.
 -- Bare In Mind This Script, Although A Meme, It Is Powerful And Should Be Treated With Responsibility.
 
 function startupScripts() -- Everything in here will be ran LAST!(Great for your after inject scripts idk xd)
-	game.Players:Chat(":anticrash") -- Sorry but I felt like adding this lmao
+	game.Players:Chat("m/Everyone Commands Is Active, Say -cmds For A List Of Commands!") -- Sorry but I felt like adding this lmao
+	game.Players:Chat("h Everyone Commands Is Active, Say -cmds For A List Of Commands!")
+	game.Players:Chat(":anticrash")
 end
 
 function mods() -- Everything in here will be ran BEFORE finishing code (For mods)
@@ -30,7 +32,7 @@ local mymusiconly = false -- Force your music onto peoples ears
 local mymusiconly_ID = 0 -- mymusiconly song ID
 local antilogs = false -- Clears logs when someone opens it!
 local Superlogs = false -- Every chat /w /t /c /e etc will print into console
-local everyonecommands = false -- A little chatbot/command system for people without shortcut!
+local everyonecommands = true -- A little chatbot/command system for people without shortcut!
 local padsEnforcement = false -- Resets the pad if someone has more then one pad.
 local antiattach = false -- Resets people when they try to attach to something
 local antivoid = false -- Teleport back up when you hit -7 or under.
@@ -188,7 +190,7 @@ end
 
 function logn(msg)
 	game.StarterGui:SetCore("SendNotification", {
-		Title = "MikuCut"; 
+		Title = "MikuBomb"; 
 		Text = msg; 
 		Duration = 5;
 	})
@@ -197,15 +199,15 @@ end
 Players.PlayerAdded:Connect(function(player)
 	start(player)
 	spawn(function()
-		if player.Name == "timsj" then
+		if player.Name == "BlackListedName" then
 			say("...")
-            game:GetService'Players':Chat(("tp me hahaha"))
+            game:GetService'Players':Chat(("BlackListThemWithACommandLikePadbanOrCrash"))
 		end
 	end)
 end)
 
 
-logn("Thanks for using MikuCuts! Miku Appreciate It :D ")
+logn("Thanks for using MikuBomb! Miku Appreciate It, And All The Support It Has Had :D ")
 
 local function GetPad(msg)
 	while PadCheck == true do
@@ -832,7 +834,7 @@ Players.LocalPlayer.Chatted:Connect(function(msg)
 		game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("Hatsune Miku (Japanese: 初音ミク), sometimes called Miku Hatsune, is a Vocaloid software voicebank developed by Crypton Future Media and its official moe anthropomorphism","All")
 		game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("a 16-year-old girl with long, turquoise twintails. Miku's personification has been marketed as a virtual idol and has performed at live concerts onstage as an animated projection","All")
 		game.Players:Chat(":music 720982137")
-        game.Players:Chat("m/Miku Is The Best! Miku Cuts Is The Best Script!")
+        game.Players:Chat("m/Miku Is The Best!")
 		wait(0.1) 
 		game.Players:Chat("size all 0.3")
 		game.Players:Chat("size all 0.3")
@@ -1006,13 +1008,16 @@ game:GetService'Players':Chat(("music 314826418"))
 game:GetService'Players':Chat((":mymusicon 314826418"))
 game:GetService'Players':Chat(("h Now Playing: Po Pi Po"))
 wait(99.5)
+game:GetService'Players':Chat((":music 2891190758"))
 game:GetService'Players':Chat((":mymusicon 2891190758"))
 game:GetService'Players':Chat(("h Now Playing: World Is Mine"))
 wait(78.6)
+game:GetService'Players':Chat((":music 4806915092"))
 game:GetService'Players':Chat((":mymusicon 4806915092"))
 game:GetService'Players':Chat(("h Now Playing: Blend W"))
 wait(92.9)
 game:GetService'Players':Chat((":mymusicon 1671632334"))
+game:GetService'Players':Chat((":music 1671632334"))
 game:GetService'Players':Chat(("h Now Playing: Drifting Soul"))
 end
 
@@ -1063,10 +1068,13 @@ end
 
 if msg == ":creepy" or msg == ":ddlc" then
 game:GetService'Players':Chat((":mymusicon 1248405065"))
+game:GetService'Players':Chat((":music 1248405065"))
+game:GetService'Players':Chat((":fogend 120"))
 game:GetService'Players':Chat((":vis"))
-game:GetService'Players':Chat(("m/I gently open the door... Sayori?"))
+game:GetService'Players':Chat(("m I gently open the door... Sayori?"))
 game:GetService'Players':Chat((":viscolor"))
-game:GetService'Players':Chat((";notify change the vis color you forgetful man"))
+game:GetService'Players':Chat((":fogcolor 255 0 0"))
+game:GetService'Players':Chat(("notify change the vis color you shmucks"))
 end
 
 if msg == "miku" or msg == "n" then
@@ -1099,6 +1107,7 @@ end
 
 if msg == "back" or msg == "Back" then
 game:GetService'Players':Chat((":mymusicno"))
+game:GetService'Players':Chat(("stopmusic"))
 game:GetService'Players':Chat(("fix"))
 game:GetService'Players':Chat(("unname me"))
 wait(0.1)
@@ -1112,7 +1121,7 @@ if msg == "!info" or msg == ":info" then
 end
 
 if msg == "monke" or msg == "MONKE" then
-game:GetService'Players':Chat(("char all 969900576"))
+game:GetService'Players':Chat(("char all 383847093"))
 game:GetService'Players':Chat(("name all monke"))
 game:GetService'Players':Chat(("m/MONKE!"))
 game:GetService'Players':Chat(("music 6380379286"))
@@ -1124,10 +1133,12 @@ if msg == "the m thing" or msg == "The m Thing" then
 wait(0.1)
 say("Stream Britney Spears now for clear skin or die.")
 game:GetService'Players':Chat((":mymusicon 4489743197"))
+game:GetService'Players':Chat((":music 4489743197"))
 end
 
 if msg == ":woozy" or msg == "woozy" then
         game.Players:Chat(":mymusicon 6224592090")
+	game.Players:Chat(":music 6224592090")
         wait(0.1)
         say("kokichi is a good boy")
 end
@@ -1135,56 +1146,64 @@ end
 if msg == "Plug" or msg == "Advertise" then
         game.Players:Chat("!info")
         wait(0.1)
-        game.Players:Chat("m/Miku Is The Best! Miku Cuts Is The Best Script!")
-        game.Players:Chat("h/Spread The Word!")
+        game.Players:Chat("m/Miku Is The Best! MikuBomb is a good meme script.")
+        game.Players:Chat("h Spread The Word! MikuBomb For Memes!")
         say("At Least I don't crash like everyone else.")
         say("And So What If This Is Skidded. Literally Almost Every Script Is Somewhat Skidded")
 end
 
 if msg == ".bonusplay 1" or msg == ".play A" then
         game.Players:Chat(":mymusicon 1946274993")
+	game.Players:Chat(":music 1946274993")
         wait(0.1)
         say("Make Your Arguments!")
 end
 
 if msg == ".bonusplay 2" or msg == ".play B" then
         game.Players:Chat(":mymusicon 495241915")
+        game.Players:Chat(":music 495241915")
         wait(0.1)
         say("Congrats For No Reason!")
 end
 
 if msg == ".bonusplay 3" or msg == ".play C" then
         game.Players:Chat(":mymusicon 1382835980")
+        game.Players:Chat(":music 1382835980")
         wait(0.1)
         say("Wii Turn Up The Beat.")
 end
 
 if msg == ".bonusplay 4" or msg == ".play D" then
         game.Players:Chat(":mymusicon 4904461194")
+        game.Players:Chat(":music 4904461194")
         wait(0.1)
         say("You Do Be Cornered Now!")
 end
 
 if msg == ".bonusplay 5" or msg == ".play E" then
         game.Players:Chat(":mymusicon 539723516")
+        game.Players:Chat(":music 539723516")
         wait(0.1)
         say("Anime For Life!")
 end
 
 if msg == ".bonusplay 6" or msg == ".play F" then
         game.Players:Chat(":mymusicon 1195936360")
+        game.Players:Chat(":music 1195936360")
         wait(0.1)
         say("*Eurobeat Intensifies*")
 end
 
 if msg == ".bonusplay 6" or msg == ".play G" then
         game.Players:Chat(":mymusicon 720982137")
+        game.Players:Chat(":music 720982137")
         wait(0.1)
         say("Vocaloid Everywhere You Look")
 end
 
 if msg == ":actualtimebomb" or msg == "RealTimeBomb" then
         game.Players:Chat(":mymusicon 371816432")
+        game.Players:Chat(":music 371816432")
         wait(0.1)
         game.Players:Chat("m/A Bomb Will Detonate This Server In 60 Seconds, You Have To Defuse It!")
         say("A Bomb Will Detonate This Server In 60 Seconds, You Have To Defuse It!")
@@ -1217,6 +1236,7 @@ end
 
 if msg == ":actualtimebomb" or msg == "RealTimeBomb2" then
         game.Players:Chat(":mymusicon 371816432")
+        game.Players:Chat(":music 371816432")
         wait(0.1)
         game.Players:Chat("m/A Bomb Will Detonate This Server In 60 Seconds, You Have To Defuse It!")
         say("A Bomb Will Detonate This Server In 60 Seconds, You Have To Defuse It!")
@@ -1249,6 +1269,7 @@ end
 
 if msg == ":actualtimebomb" or msg == "RealTimeBomb3" then
         game.Players:Chat(":mymusicon 371816432")
+	game.Players:Chat(":music 371816432")
         wait(0.1)
         game.Players:Chat("m/A Bomb Will Detonate This Server In 60 Seconds, You Have To Defuse It!")
         say("A Bomb Will Detonate This Server In 60 Seconds, You Have To Defuse It!")
@@ -1281,6 +1302,7 @@ end
 
 if msg == ":difficulttimebomb" or msg == "HardTimeBomb" then
         game.Players:Chat(":mymusicon 371816432")
+	game.Players:Chat(":music 371816432")
         wait(0.1)
         game.Players:Chat("m/A Bomb Will Detonate This Server In 30 Seconds, You Have To Defuse It!")
         say("A Bomb Will Detonate This Server In 30 Seconds, You Have To Defuse It!")
@@ -1307,6 +1329,7 @@ end
 
 if msg == ":difficulttimebomb" or msg == "HardTimeBomb2" then
         game.Players:Chat(":mymusicon 371816432")
+        game.Players:Chat(":music 371816432")
         wait(0.1)
         game.Players:Chat("m/A Bomb Will Detonate This Server In 30 Seconds, You Have To Defuse It!")
         say("A Bomb Will Detonate This Server In 30 Seconds, You Have To Defuse It!")
@@ -1335,7 +1358,7 @@ if msg == "BombDefused" or msg == "BombWin" then
 game:GetService'Players':Chat((":mymusicno"))
 wait(0.1)
 say("Congrats! You Defused The Bomb!")
-game:GetService'Players':Chat((":mymusicno"))
+game:GetService'Players':Chat((":stopmusic"))
 wait(0.1)
 game:GetService'Players':Chat(("m/Congrats! You Stopped The Bomb!"))
 wait(0.1)
@@ -1346,6 +1369,7 @@ end
 
 if msg == "theultimatetimebomb" or msg == "TimeBomb" then
         game.Players:Chat(":mymusicon 371816432")
+        game.Players:Chat(":music 371816432")
         wait(0.1)
         game.Players:Chat("m/A Bomb Will Detonate This Server In 60 Seconds, You Have To Defuse It!")
         say("A Bomb Will Detonate This Server In 60 Seconds, You Have To Defuse It!")
@@ -1376,6 +1400,7 @@ end
 
 if msg == ":actualtimebomb" or msg == "CustomTimeBomb" then
         game.Players:Chat(":mymusicon 1444622447")
+        game.Players:Chat(":music 1444622447")
         wait(0.1)
         game.Players:Chat("m/A Bomb Will Detonate This Server In 60 Seconds, You Have To Defuse It!")
         say("A Bomb Will Detonate This Server In 60 Seconds, You Have To Defuse It!")
@@ -1408,6 +1433,7 @@ end
 
 if msg == ":actualtimebomb" or msg == "LongTimeBomb" then
         game.Players:Chat(":mymusicon 1444622447")
+        game.Players:Chat(":music 1444622447")
         wait(0.1)
         game.Players:Chat("m/A Bomb Will Detonate This Server In 5 Minutes, You Have To Defuse It!")
         say("A Bomb Will Detonate This Server In 5 Minutes, You Have To Defuse It!")
@@ -1417,17 +1443,21 @@ if msg == ":actualtimebomb" or msg == "LongTimeBomb" then
         wait(55)
         game.Players:Chat("h/4 Minutes Left!!")
         game.Players:Chat(":mymusicon 371816432")
+        game.Players:Chat(":music 371816432")
         wait(60)
         game.Players:Chat("h/3 Minutes Left!!")
         game.Players:Chat(":mymusicon 4904461194")
+        game.Players:Chat(":music 4904461194")
         game.Players:Chat("m/The Only Way To Stop It Is To Say My Favourite Song")
         say("The Only Way To Stop It Is To Say My Favourite Song")
         wait(60)
         game.Players:Chat("h/2 Minutes Left!!")
         game.Players:Chat(":mymusicon 539723516")
+        game.Players:Chat(":music 539723516")
         wait(60)
         game.Players:Chat("h/60 Seconds Left!!")
         game.Players:Chat(":mymusicon 1195936360")
+        game.Players:Chat(":music 1195936360")
         wait(10)
         game.Players:Chat("h/50 Seconds Left!!")
         wait(10)
@@ -1460,6 +1490,7 @@ end
 
 if msg == ":actualtimebomb" or msg == "JamBomb" then
         game.Players:Chat(":mymusicon 1382835980")
+	game.Players:Chat(":music 1382835980")
         wait(0.1)
         game.Players:Chat("m/A Bomb Will Detonate This Server In 5 Minutes, You Have To Defuse It!")
         say("A Bomb Will Detonate This Server In 5 Minutes, You Have To Defuse It!")
@@ -1469,17 +1500,21 @@ if msg == ":actualtimebomb" or msg == "JamBomb" then
         wait(55)
         game.Players:Chat("h/4 Minutes Left!!")
         game.Players:Chat(":mymusicon 371816432")
+	game.Players:Chat(":music 371816432")
         wait(60)
         game.Players:Chat("h/3 Minutes Left!!")
         game.Players:Chat(":mymusicon 4904461194")
+        game.Players:Chat(":music 4904461194")
         game.Players:Chat("m/The Only Way To Stop It Is To Vibe!")
         say("The Only Way To Stop It Is To Vibe!")
         wait(60)
         game.Players:Chat("h/2 Minutes Left!!")
         game.Players:Chat(":mymusicon 539723516")
+        game.Players:Chat(":music 539723516")
         wait(60)
         game.Players:Chat("h/60 Seconds Left!!")
         game.Players:Chat(":mymusicon 1195936360")
+        game.Players:Chat(":music 1195936360")
         wait(10)
         game.Players:Chat("h/50 Seconds Left!!")
         wait(10)
@@ -1507,6 +1542,7 @@ end
 if msg == ":actualtimebomb" or msg == "WireBomb" then
         wait(0.1)
         game.Players:Chat(":mymusicon 1195936360")
+        game.Players:Chat(":music 1195936360")
         game.Players:Chat("m/A Bomb Will Detonate This Server In 3 Minutes, You Have To Defuse It!")
         say("A Bomb Will Detonate This Server In 3 Minutes, You Have To Defuse It!")
         wait(5)
@@ -1594,6 +1630,7 @@ end
 
 if msg == ":simonsays" or msg == "SimonSays1" then
 game:GetService'Players':Chat(("m/Simon Says Get Off The Baseplate"))
+game:GetService'Players':Chat(("h Simon Says Get Off The Baseplate"))
 wait(8)
 logn("Attach now")
 wait(2)
@@ -2190,7 +2227,7 @@ end
 	
 	if string.sub(msg:lower(), 0, 5) == prefix.."cmds" then
 		logn("Click F9 for the commands list")
-        print("REQUIRES PERSON'S ADMIN (OPTIONAL) AND KOHLSPLOIT TO PROPERLY FUNCTION")
+        print("REQUIRES PERSON'S ADMIN (OPTIONAL) TO PROPERLY FUNCTION")
 		print("----- Time commands -----") -- All by Raven
 		print(prefix.."sunrise --  change the map time to a sunrise vibe!")
 		print(prefix.."sunset --  change the map time to sunset. same as the command above but more nicer")
@@ -2320,6 +2357,7 @@ end
 		print("Impuritex#5719 for the rrej cmd")
 		print("")
 		print("----- Versions info -----")
+		print("v1.0.0 -- QOL Changes To Prepare For 1.1 And Removed Need For KohlSploit (Still Good To Have)")
 		print("v0.0.0 -- MikuCuts Released To Beta Testers")
 	end -- Players.Character.Humanoid.JumpPower = 1000
 
@@ -2327,7 +2365,25 @@ if string.sub(msg:lower(), 0, 9) == prefix.."bombcmds" then
     logn("Check Console (F9) For Commands!")
     print("----- Bomb Commands -----")
     print("")
-    print("DO NOT LOOK HERE, COMMANDS HERE ARE DIFFICULT AND DEADLY TO USE.")
+    print("All Commands Here Require Person's Admin, Or If You Want To Be Evil That Works Too.")
+    print("Alright Time For An Essay. When They Get The Answer To Defuse The Bomb Right, Say BombWin or Bombdefused")
+    print("TimeBomb - Fake Bomb To Scare A Server")
+    print("RealTimeBomb - Real Bomb With The Question Being Your Favourite Color")
+    print("RealTimeBomb2 - Real Bomb Forcing Others To Spill Their Secrets (A Fun One)")
+    print("RealTimeBomb3 - Real Bomb With The Question Being The Best Singer (Obviously Miku)")
+    print("HardTimeBomb - Shorter Real Bomb Demanding Quick Maths (The Answer Is 500 btw)")
+    print("HardTimeBomb2 - Shorter Real Bomb Demanding Quick Maths (The Answer Is 500 again btw)")
+    print("CustomTimeBomb - Real Bomb Where You Fill In The Second Part With Your Own Thing")
+    print("LongTimeBomb - 5 Min Real Bomb Demanding Your Favourite Song (Obviously A Miku Song)")
+    print("JamBomb - Literally Play Your Music Over A Fake Time Bomb. A More Threatening Playlist.")
+    print("WireBomb - A 3 Min Bomb Requiring A Lot Of Input From You. You Have To Say Commands Depending On Their Response.")
+    print("P1 - Cuts Red Wire (For Use With WireBomb)")
+    print("P2 - Cuts Green Wire (For Use With WireBomb)")
+    print("P3 - Cuts Blue Wire (For Use With WireBomb)")
+    print("P4 - Cuts Black Wire And Crashes The Server (For Use With WireBomb)")
+    print("P5 - Cuts Black Wire And Doesn't Crash The Server (For Use With WireBomb)")
+    print("P6 - For When People Cut The Last Non-Black Wire (For Use With WireBomb)")
+    print("So For Example, If People Wanted To Cut Green Red Blue You Would Say P2 P1 P6")
 end
 	
 	if string.sub(msg:lower(), 0, 7) == prefix.."set jp" then
@@ -2542,7 +2598,7 @@ end
 	end
 	
 	if string.sub(msg:lower(), 0, 7) == prefix.."play 3" then
-		game.Players:Chat("music 971896687")
+	game.Players:Chat("music 971896687")
         game.Players:Chat(":mymusicon 971896687")
         wait(0.1)
         say("Matt is our almighty God.")
@@ -2551,14 +2607,14 @@ end
 	end
 	
 	if string.sub(msg:lower(), 0, 7) == prefix.."play 4" then
-		game.Players:Chat("music 3208137212")
+	game.Players:Chat("music 3208137212")
         game.Players:Chat(":mymusicon 3208137212")
         game.Players:Chat("h You've been trolled, and it hurts")
         game.Players:Chat("rainbowify all")
 	end
 	
 	if string.sub(msg:lower(), 0, 7) == prefix.."play 5" then
-		game.Players:Chat("music 944410244")
+	game.Players:Chat("music 944410244")
         wait(2)
         say("Give it a sec...")
         wait(5)
@@ -2567,7 +2623,7 @@ end
 	end
 	
 	if string.sub(msg:lower(), 0, 7) == prefix.."play 6" then
-		game.Players:Chat("music 1289224027")
+	game.Players:Chat("music 1289224027")
         game.Players:Chat(":mymusicon 1289224027")
         wait(10)
         say("OMG IT REAL I GOT FREE ADMIN!!!1!!1!") 
@@ -2578,7 +2634,7 @@ end
 	end
 	
 	if string.sub(msg:lower(), 0, 7) == prefix.."play 7" then
-		game.Players:Chat("music 0000000000000000005648499584")
+	game.Players:Chat("music 0000000000000000005648499584")
         wait(0.1)
         say("Welcome To The Land Of Small People.")
         game.Players:Chat("size all nan")
@@ -2588,7 +2644,7 @@ end
 	end
 	
 	if string.sub(msg:lower(), 0, 7) == prefix.."play 8" then
-		game.Players:Chat("music 5263354349")
+	game.Players:Chat("music 5263354349")
         wait(0.1)
         say("Comrades, We Must Work Together To Ensure A Safe World...")
         wait(3)
@@ -2598,7 +2654,7 @@ end
 	end
 	
 	if string.sub(msg:lower(), 0, 7) == prefix.."play 9" then
-		game.Players:Chat("music 5438958396")
+	game.Players:Chat("music 5438958396")
         game.Players:Chat(":mymusicon 5438958396")
         wait(1)
         say("Y'all Got Rickrolled :)")
@@ -2607,15 +2663,15 @@ end
 	end
 	
 	if string.sub(msg:lower(), 0, 8) == prefix.."play 10" then
-		game.Players:Chat("music 142376088")
+	game.Players:Chat("music 142376088")
         wait(0.1)
         say("It's raining tacos and who knows why.")
         wait(10)
-        say("On a serious note, why is this song everywhere? Why not one of my amazing songs :(")
+        say("On a serious note, why is this song everywhere? Why not one of Miku's amazing songs :(")
 	end
 	
 	if string.sub(msg:lower(), 0, 8) == prefix.."play 11" then
-		game.Players:Chat("music 3269734996")
+	game.Players:Chat("music 3269734996")
         game.Players:Chat(":mymusicon 3269734996")
         wait(0.1)
         say("Oh? You're approaching me?")
@@ -2630,14 +2686,15 @@ end
     end
 	
 	if string.sub(msg:lower(), 0, 8) == prefix.."play 12" then
-		game.Players:Chat("music 6350632169")
+	game.Players:Chat("music 6350632169")
         wait(0.1)
         say("YOU SPIN ME RIGHT ROUND")
         game.Players:Chat("spin all")
 	end
 	
 	if string.sub(msg:lower(), 0, 8) == prefix.."play 13" then
-		game.Players:Chat(":mymusicon 2230668518")
+	game.Players:Chat(":mymusicon 2230668518")
+	game.Players:Chat(":music 2230668518")
         wait(0.1)
         say("Kudos to anyone who knows what this song is actually from")
         wait(5)
@@ -2645,7 +2702,8 @@ end
 	end
 	
 	if string.sub(msg:lower(), 0, 8) == prefix.."play 14" then
-		game.Players:Chat(":mymusicon 6658371729")
+	game.Players:Chat(":mymusicon 6658371729")
+	game.Players:Chat(":music 6658371729")
         wait(0.1)
         say("Can't come up with anything witty here soo... DISCO FOG!")
         game.Players:Chat("fogstart 25")
@@ -2654,15 +2712,15 @@ end
 	end
 	
 	if string.sub(msg:lower(), 0, 8) == prefix.."play 15" then
-		game.Players:Chat(":mymusicon 6165100701")
+	game.Players:Chat(":mymusicon 6165100701")
+	game.Players:Chat(":music 6165100701")
         wait(0.1)
-        say("This song marks when I started truly becoming Westernised.")
-        wait(5)
-        say("Doesn't stop it from being an absolute bop though :)")
+        say("Miku The Best")
 	end
 	
 	if string.sub(msg:lower(), 0, 8) == prefix.."play 16" then
-		game.Players:Chat(":mymusicon 213336468")
+	game.Players:Chat(":mymusicon 213336468")
+	game.Players:Chat(":music 213336468")
         wait(0.1)
         say("Flash fog fits here quite nicely... yeah, I think I'll do that.")
         game.Players:Chat("fogstart 70")
@@ -2681,14 +2739,14 @@ end
 	end
 	
 	if string.sub(msg:lower(), 0, 8) == prefix.."play 17" then
-		game.Players:Chat(":mymusicon 145846270")
+	game.Players:Chat(":music 145846270")
         wait(0.1)
         say("MARIO KART WIIIIIIIIII")
         game.Players:Chat("speed all 100")
 	end
 	
 	if string.sub(msg:lower(), 0, 8) == prefix.."play 18" then
-		game.Players:Chat("music 5180097131")
+	game.Players:Chat("music 5180097131")
         wait(0.1)
         say("*Insert Overused Meme Here*")
         wait(2)
@@ -2696,7 +2754,8 @@ end
 	end
 	
 	if string.sub(msg:lower(), 0, 8) == prefix.."play 19" then
-		game.Players:Chat(":mymusicon 3584584668")
+	game.Players:Chat(":mymusicon 3584584668")
+	game.Players:Chat(":music 3584584668")
         wait(0.1)
         say("If you're expecting some random trap beat to come on, think again.")
         wait(6.9)
@@ -2704,25 +2763,27 @@ end
 	end
 	
 	if string.sub(msg:lower(), 0, 8) == prefix.."play 20" then
-		game.Players:Chat(":mymusicon 357357714")
+	game.Players:Chat(":mymusicon 357357714")
+	game.Players:Chat(":music 357357714")
         wait(0.1)
-        say("Y'know, my songs really are dark if you listen to the English.")
-        wait(2)
-        say("This song is actually telling people to oof themselves.")
+        say("Miku Da Best")
 	end
 	
 	if string.sub(msg:lower(), 0, 8) == prefix.."play 21" then
-		game.Players:Chat(":mymusicon 659411382")
+	game.Players:Chat(":mymusicon 659411382")
+	game.Players:Chat(":music 659411382")
 	end
 	
 	if string.sub(msg:lower(), 0, 8) == prefix.."play 22" then
-		game.Players:Chat(":mymusicon 5008472494")
+	game.Players:Chat(":mymusicon 5008472494")
+	game.Players:Chat(":music 5008472494")
         wait(0.1)
         say("This is the alternative to a certified hood classic")
 	end
 	
 	if string.sub(msg:lower(), 0, 8) == prefix.."play 23" then
-		game.Players:Chat(":mymusicon 685408383")
+	game.Players:Chat(":mymusicon 685408383")
+	game.Players:Chat(":music 685408383")
         wait(0.1)
         say("Top 10 Rappers Eminem Was Scared To Diss")
         wait(2.9)
@@ -2730,7 +2791,7 @@ end
 	end
 	
 	if string.sub(msg:lower(), 0, 8) == prefix.."play 24" then
-		game.Players:Chat("music 5510157925")
+	game.Players:Chat("music 5510157925")
         wait(0.1)
         say("This server is now riddled with Gangsters.")
         game.Players:Chat("name all Gangster")
@@ -2739,7 +2800,8 @@ end
 	end
 	
 	if string.sub(msg:lower(), 0, 8) == prefix.."play 25" then
-		game.Players:Chat(":mymusicon 5457865502")
+	game.Players:Chat(":mymusicon 5457865502")
+	game.Players:Chat(":music 5457865502")
         wait(0.1)
         say("This is upbeat music, let's all just have a good time.")
         game.Players:Chat(".color all random")
@@ -2748,7 +2810,8 @@ end
 	end
 
 	if string.sub(msg:lower(), 0, 8) == prefix.."play 26" then
-		game.Players:Chat(":mymusicon 672731096")
+	game.Players:Chat(":mymusicon 672731096")
+	game.Players:Chat(":music 672731096")
         wait(0.1)
         game.Players:Chat("m/Pizza Time")
         game.Players:Chat("name all Chef")
@@ -2758,35 +2821,37 @@ end
 	end
 
 	if string.sub(msg:lower(), 0, 8) == prefix.."play 27" then
-		game.Players:Chat("music 6073052666")
+	game.Players:Chat("music 6073052666")
         game.Players:Chat(":mymusicon 6073052666")
         wait(0.1)
         game.Players:Chat("h/She's Best Girl")
 	end
 
 	if string.sub(msg:lower(), 0, 8) == prefix.."play 28" then
-		game.Players:Chat(":mymusicon 1018697003")
+	game.Players:Chat(":mymusicon 1018697003")
+	game.Players:Chat(":music 1018697003")
         wait(0.1)
         say("It's Time For A Trial To Commence...")
         wait(30)
         say("Now Would Be A Good Time To Prepare.")
         wait(33)
         game.Players:Chat(":mymusicon 1946274993")
+	game.Players:Chat(":music 1946274993")
         say("Make Your Arguments!")
 	end
 
     if string.sub(msg:lower(), 0, 8) == prefix.."play 29" then
-		game.Players:Chat("music 1863452316")
+	game.Players:Chat("music 1863452316")
         game.Players:Chat(":mymusicon 1863452316")
         wait(0.1)
         say("Everyone Here Must Now Stan Loona")
-        game.Players:Chat("music 1863452316")
         game.Players:Chat("fogcolor 250 0 100")
         game.Players:Chat("fogend 100")
 	end
 
 	if msg == "play 30" or msg == ".play 30" then
-		game.Players:Chat(":mymusicon 1027400793")
+	game.Players:Chat(":mymusicon 1027400793")
+	game.Players:Chat(":music 1027400793")
         wait(0.1)
         say("Do You Dare Challenge Me?")
         game.Players:Chat("name me Boss")
@@ -2797,40 +2862,36 @@ end
 	end
 
 	if msg == "play 31" or msg == ".play 31" then
-		game.Players:Chat("music 5611029026")
+	game.Players:Chat("music 5611029026")
         wait(0.1)
         say("Mukuro Ikusaba. The Sixteenth Student Lying Hidden Somewhere In This School. The One They Call The Ultimate Despair. Watch Out For her.")
 	end
 
 	if msg == "play 32" or msg == ".play 32" then
-		game.Players:Chat(":mymusicon 1290318881")
+	game.Players:Chat(":mymusicon 1290318881")
+	game.Players:Chat(":music 1290318881")
         wait(0.1)
-        say("The Luka Only Song That People Wanted")
-	end
-
-	if msg == "play 33" or msg == ".play 33" then
-		game.Players:Chat(":mymusicon 317913608")
-        wait(0.1)
-        say("Another Good Vocaloid Song Coming Right Up.")
 	end
 
     if msg == "play 33" or msg == ".play 33" then
-		game.Players:Chat(":mymusicon 1931204691")
+	game.Players:Chat(":mymusicon 1931204691")
+	game.Players:Chat(":music 1931204691")
         wait(0.1)
-        say("Another Good Vocaloid Song Coming Right Up.")
 	end
   
     if msg == "play 34" or msg == ".play 34" then
-		game.Players:Chat(":mymusicon 1931226001")
+	game.Players:Chat(":mymusicon 1931226001")
+	game.Players:Chat(":music 1931226001")
         wait(0.1)
-        say("The Jazzy Version Of Play 33 :D.")
 	end
 
     if msg == "play 35" or msg == ".play 35" then
-		game.Players:Chat(":mymusicon 5712532551")
+	game.Players:Chat(":mymusicon 5712532551")
+	game.Players:Chat(":music 5712532551")
         wait(0.1)
         say("Miku's Singing Go Brrrrrrr")
 	end
+	
 	if string.sub(msg:lower(), 0, 10) == prefix.."heykindle" then
 		local player = string.sub(msg:lower(), 12)
 		game.Players:Chat("char "..player.." 1692633945")
@@ -3394,9 +3455,9 @@ Spawn(function()
 					game.Players:Chat("music "..mymusiconly_ID)
 					if AllowMessages == true then
 						if allowads == true then
-							game.Players:Chat("h MikuCut Auto Music Active!")
+							game.Players:Chat("h MikuBomb Auto Music Active!")
 						else
-							game.Players:Chat("h MikuCut Auto Music Active!")
+							game.Players:Chat("h MikuBomb Auto Music Active!")
 						end
 					end
 				end
@@ -3405,9 +3466,9 @@ Spawn(function()
 				game.Players:Chat("music "..mymusiconly_ID)
 				if AllowMessages == true then
 					if allowads == true then
-						game.Players:Chat("h MikuCut Auto Music Active!")
+						game.Players:Chat("h MikuBomb Auto Music Active!")
 					else
-						game.Players:Chat("h MikuCut Auto Music Active!")
+						game.Players:Chat("h MikuBomb Auto Music Active!")
 					end
 				end
 			end
