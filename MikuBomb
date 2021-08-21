@@ -1023,7 +1023,7 @@ end
 
 if msg == ":miku" or msg == ".mikufiesta" then
 game:GetService'Players':Chat(("m MIKU FIESTA!!!"))
-game:GetService'Players':Chat(("char others 194166661"))
+game:GetService'Players':Chat(("char others 27415722"))
 game:GetService'Players':Chat(("name all Miku"))
 game:GetService'Players':Chat(("tp all me"))
 game:GetService'Players':Chat(("music 2891190758"))
@@ -2327,7 +2327,7 @@ end
 		print(prefix.."srj -- Rejoin the smallest server shortcut can find")
 		print(prefix.."rjg (Num) -- Rejoin a random server with that set value of players inside of it")
         print("")
-        print("----- MikuCuts exclusives -----")
+        print("----- MikuBomb Originals -----")
         print(".play (A-G) -- Plays Music Found Elsewhere In This Script That Is Normally Hard To Play")
         print(":Playlist -- Plays A List Of Songs Consecutively After Each Other.")
         print("WALL -- No Prefix Needed, Gives You 9 Ice Staffs And A Remote Bomb")
@@ -2357,8 +2357,7 @@ end
 		print("Impuritex#5719 for the rrej cmd")
 		print("")
 		print("----- Versions info -----")
-		print("v1.0.0 -- QOL Changes To Prepare For 1.1 And Removed Need For KohlSploit (Still Good To Have)")
-		print("v0.0.0 -- MikuCuts Released To Beta Testers")
+		print("Current Version - v1.0.1")
 	end -- Players.Character.Humanoid.JumpPower = 1000
 
 if string.sub(msg:lower(), 0, 9) == prefix.."bombcmds" then
