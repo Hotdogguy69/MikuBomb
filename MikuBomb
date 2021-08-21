@@ -65,7 +65,7 @@ local oofkohlsPmSpam = game:HttpGet("https://pastebin.com/raw/d7eTDKbJ")
 local onekspaces = "                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        "
 local crashall_Text = onekspaces.."g"..onekspaces.."g"..onekspaces.."g"..onekspaces.."g"..onekspaces.."g"..onekspaces
 
-Quotes = {"i completely cleared a khols admin server","What every tool in AdminJoy looks like when doing the command ;alltools","ayyyyy i have the owner of admin joy","he is my friend","ClassicClient-source","DDOSER-APRIL2-PATCH.exe","FastColoredTextBox.dll","Best MCPE hack IS shortcut :D","Powered by muffins","gg ez kid","Use the force bitch, Use the force.","I hope you've had a nice start to the week.","raw/d7eTDKbJ","Burned bitch!","ow they dont know u?","bitch","heart","my","steal","Fuck you -Ex_zivye(NOT REALLY)","you can also get private info via exif","i hope u didnt add for clearlogs I word cuz ill hate u",";kill all, What why no work?!?!?!?!",";fly plzz",":shrek me",":admin me",":fly","\"Commands\"","yo mama xd","Hi! So, you know on ragdoll, I wanna do that baloon thing, do you know how-",";fly","you okay? also, im here to help. if you need help, tell me!","no joke tho- im here to help you if you need help-","Remove the l from clock-","viewing logs I see","aDmIn mE", "Hey bitch~","Shortcuts the best MC hack","Fortnite sucks.","Only I can clearlogs","Adminjoy users aren't bright","Do Win+X for perm!","IM GAMERBOY80!","nice bobs","What are you doing step bro!","local dick = \"NONE\"","May i put my token next to yours...","Among.Us.v2020.11.17s","i have a working kick script","Yo anyone","omg nooooo!!!!","PEE","this will be a roblox id in less then 3 days","Subway Sexist - Subway Surfers Rap"," German SpongeBob [EARRAPE] ","Why do i get more suggestions from shortcuts general then its suggestions channel...","can someone tell me a free excuter i can use?","[Content Deleted]","#### YOU #####","Laamy we in da same server what a goat","what is #other-scripts for","wearedevs.net = VIRUS","Im bored, learn lua.","function ChangeColour(Part, Colour)","omg11!!1","the only differents is when he sees me he stands there tripping me ;-;","i met admin joy wner too!1 !11","easyexploits.dll","yes heres so not virus.exe [FILE.txt]","OMG YOU ARE HACKER?1?11/!?/1/!?","Make anti-tp (Im trying)","Took me all fucking day to get this shit","Whats that step br- WHAT!","HACOR!?!?!??!!??","laamy is hacer","i dont think wkick works","[Laggy Text Here]","i-, wdym????"}
+Quotes = {"Miku Is The Best Singer","Gotta Always Love MikuBomb","The Mitochondria Is The Powerhouse Of The Cell","HOW DO I ASSEMBLE IKEA FURNITURE???","Unexpected Handling Error Occured, See Traceback.txt For Details.","Initialising Meme.exe","Looking Kinda Sus","Best MCPE hack IS Java :D","Powered by muffins","You Found The Worst Quote Possible, Congrats","I have the high ground","I hope you've had a nice start to the week.","Bet That Half This Server Can't Do The Obby","Should my microwave be making that noise?","Why does it smell like it's burning?","I Left The Oven On Oops.","Initiating Obligatory Crash Sequence In 10 Seconds.","Bohemian Rhapsody","Don't Use Vampire Gear","Damix Is Annoying","The Dark Web Is A Good Place","I Am Running Out Of Quotes Already",";kill all, What why no work?!?!?!?!",";fly plzz",":shrek me should be a command","Sword Fight On The Heights Is Best Game",":fly, top 10 most infuriating things","You've Activated My Trap Card","Hi I'm A Clown","If Someone Puts On One More Rubbish Music ID Ima Crash",";fly, no work, game is broken","you okay? also, im here to help. if you need help, tell me!","no joke tho- im here to help you if you need help-","sssssssssssssssss","Anyone Here Using System?","aDmIn mE", "Britney Spears Not Half Bad ngl","Download the best MC hack","Fortnite is good/bad idk yet.","I control your fate","Press Alt+F4 For Free Admin!","Do Win+X for perm!","IM GAMERBOY80!","nice!","What are you doing step bro!","Accidentally Hit The Self Destruct Button...","Preparing Obligatory Advertisement...","Among.Us.v2020.11.17s","i have a working kick script","You win? I think so at least","omg nooooo!!!!","PEE","this will be a roblox id in less then 3 days","Subway Sexist - Subway Surfers Rap"," German SpongeBob [LOUD] ","Why do i not have a server yet?","can someone tell me a free excuter i can use?","[Content Deleted]","#### YOU #####","No posting memes in #general","what is #afk for","wearedevs.net = VIRUS","Im bored, learn lua.","function ChangeColour(Part, Colour)","omg11!!1","SAO Best Anime","Aincrad Arc Best Arc","easyexploits.dll","yes heres so not virus.exe [FILE.txt]","OMG YOU ARE HACKER?1?11/!?/1/!?","GiVe Me HaCkS","Took me all day to get this working","Whats that step br- WHAT!","HACOR!?!?!??!!??","Will You All Just Be Quiet?","i dont think wkick works","[Laggy Text Here]","egirls on top"}
 
 local crashall = false
 local Wteskking = "none"
@@ -739,8 +739,87 @@ Players.LocalPlayer.Chatted:Connect(function(msg)
 		logn("Changed prefix to '"..string.sub(msg:lower(), 9, 9).."'")
 		prefix = string.sub(msg:lower(), 9, 9)
 	end
-	
+
 	if string.sub(msg:lower(), 0, 9) == prefix.."shutdown" then
+		logn("Shutting Down Server...")
+        game.Players:Chat("m/:D!!!")
+		game.Players:Chat(prefix.."Time To Go Home Everyone")
+		wait(0.5)
+		game.Players:Chat("size all 0.3")
+		game.Players:Chat("size all 0.3")
+		game.Players:Chat("size all 0.3")
+		game.Players:Chat("freeze all")
+		game.Players:Chat("size all 10")
+		game.Players:Chat("size all 10")
+		game.Players:Chat("size all 10")
+		game.Players:Chat("clone all")
+		game.Players:Chat("size all 0.3")
+		game.Players:Chat("size all 0.3")
+		game.Players:Chat("size all 0.3")
+		game.Players:Chat("freeze all")
+		game.Players:Chat("size all 10")
+		game.Players:Chat("size all 10")
+		game.Players:Chat("size all 10")
+		game.Players:Chat("clone all")
+		game.Players:Chat("size all 0.3")
+		game.Players:Chat("size all 0.3")
+		game.Players:Chat("size all 0.3")
+		game.Players:Chat("freeze all")
+		game.Players:Chat("size all 10")
+		game.Players:Chat("size all 10")
+		game.Players:Chat("size all 10")
+		game.Players:Chat("clone all")
+		game.Players:Chat("size all 0.3")
+		game.Players:Chat("size all 0.3")
+		game.Players:Chat("size all 0.3")
+		game.Players:Chat("freeze all")
+		game.Players:Chat("size all 10")
+		game.Players:Chat("size all 10")
+		game.Players:Chat("size all 10")
+		game.Players:Chat("clone all")
+		game.Players:Chat("size all 0.3")
+		game.Players:Chat("size all 0.3")
+		game.Players:Chat("size all 0.3")
+		game.Players:Chat("freeze all")
+		game.Players:Chat("size all 10")
+		game.Players:Chat("size all 10")
+		game.Players:Chat("size all 10")
+		game.Players:Chat("clone all")
+		game.Players:Chat("size all 0.3")
+		game.Players:Chat("size all 0.3")
+		game.Players:Chat("size all 0.3")
+		game.Players:Chat("freeze all")
+		game.Players:Chat("size all 10")
+		game.Players:Chat("size all 10")
+		game.Players:Chat("size all 10")
+		game.Players:Chat("clone all")
+		game.Players:Chat("size all 0.3")
+		game.Players:Chat("size all 0.3")
+		game.Players:Chat("size all 0.3")
+		game.Players:Chat("freeze all")
+		game.Players:Chat("size all 10")
+		game.Players:Chat("size all 10")
+		game.Players:Chat("size all 10")
+		game.Players:Chat("clone all")
+		game.Players:Chat("size all 0.3")
+		game.Players:Chat("size all 0.3")
+		game.Players:Chat("size all 0.3")
+		game.Players:Chat("freeze all")
+		game.Players:Chat("size all 10")
+		game.Players:Chat("size all 10")
+		game.Players:Chat("size all 10")
+		game.Players:Chat("clone all")
+		game.Players:Chat("size all 0.3")
+		game.Players:Chat("size all 0.3")
+		game.Players:Chat("size all 0.3")
+		game.Players:Chat("freeze all")
+		game.Players:Chat("size all 10")
+		game.Players:Chat("size all 10")
+		game.Players:Chat("size all 10")
+		game.Players:Chat("clone all")
+	end
+	
+	if string.sub(msg:lower(), 0, 9) == prefix.."bshutdown" then
 		logn("Shutting Down Server...")
         game.Players:Chat("m/You Failed!!!")
 		game.Players:Chat(prefix.."sm The Bomb Exploded, And The Server Has Died!")
@@ -1029,6 +1108,22 @@ game:GetService'Players':Chat(("tp all me"))
 game:GetService'Players':Chat(("music 2891190758"))
 end
 
+if msg == ":monika" or msg == ".justmonika" then
+game:GetService'Players':Chat(("m/Just Monika"))
+game:GetService'Players':Chat(("char others 2820640699"))
+game:GetService'Players':Chat(("name others Just_Monika"))
+game:GetService'Players':Chat(("music 1352503699"))
+end
+
+if msg == ":quotes" or msg == "randomquotes" then
+wait(0.1)
+game:GetService'Players':Chat(("-quote"))
+wait(1)
+game:GetService'Players':Chat(("-quote"))
+wait(1)
+game:GetService'Players':Chat(("-quote"))
+end
+
 if msg == "WALL" or msg == ":WALL" then
 game:GetService'Players':Chat(("gear me 00000019704064"))
 game:GetService'Players':Chat(("gear me 00000019704064"))
@@ -1079,6 +1174,7 @@ end
 
 if msg == "miku" or msg == "n" then
 game:GetService'Players':Chat((":mymusicno"))
+game:GetService'Players':Chat((":stopmusic"))
 end
 
 if msg == "PIANO" or msg == ":piano" then
@@ -1114,6 +1210,49 @@ wait(0.1)
 say("Hooray, They're Back!!")
 end
 
+if msg == "disaster1" or msg == "Disaster1" then
+game:GetService'Players':Chat(("m/Disaster: Undead Frenzy!"))
+game:GetService'Players':Chat(("h Disaster: Undead Frenzy!"))
+game:GetService'Players':Chat(("gear me 26421972"))
+game:GetService'Players':Chat(("gear me 26421972"))
+game:GetService'Players':Chat(("gear me 26421972"))
+game:GetService'Players':Chat(("gear me 26421972"))
+game:GetService'Players':Chat(("gear me 26421972"))
+game:GetService'Players':Chat(("gear me 95951330"))
+game:GetService'Players':Chat(("gear me 95951330"))
+game:GetService'Players':Chat(("gear me 95951330"))
+game:GetService'Players':Chat(("gear me 95951330"))
+game:GetService'Players':Chat(("gear me 95951291"))
+game:GetService'Players':Chat(("size me 2.5"))
+game:GetService'Players':Chat(("name me Undead King"))
+game:GetService'Players':Chat(("removehats me"))
+game:GetService'Players':Chat(("infect me"))
+game:GetService'Players':Chat(("health me 7500"))
+game:GetService'Players':Chat(("sword others"))
+game:GetService'Players':Chat(("ungod all"))
+game:GetService'Players':Chat(("unff all"))
+game:GetService'Players':Chat((":mymusicon 151915559"))
+end
+
+if msg == "disaster2" or msg == ".disaster2" then
+game:GetService'Players':Chat(("m/Disaster: A Strong Breeze!"))
+game:GetService'Players':Chat(("h Disaster: A Strong Breeze!"))
+game:GetService'Players':Chat(("gear me 127506257"))
+game:GetService'Players':Chat(("gear me 127506257"))
+game:GetService'Players':Chat(("gear me 127506257"))
+game:GetService'Players':Chat(("gear me 127506257"))
+game:GetService'Players':Chat(("gear me 127506257"))
+game:GetService'Players':Chat(("gear me 102705454"))
+game:GetService'Players':Chat(("gear me 102705454"))
+game:GetService'Players':Chat(("gear me 102705454"))
+game:GetService'Players':Chat(("gear me 102705454"))
+game:GetService'Players':Chat(("gear me 102705454"))
+game:GetService'Players':Chat(("ungod all"))
+game:GetService'Players':Chat(("unff all"))
+game:GetService'Players':Chat((":mymusicon 5769771223"))
+game:GetService'Players':Chat(("speed me 128"))
+end
+
 if msg == "!info" or msg == ":info" then
         wait(0.1)
 		game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("Hatsune Miku (Japanese: 初音ミク), sometimes called Miku Hatsune, is a Vocaloid software voicebank developed by Crypton Future Media and its official moe anthropomorphism","All")
@@ -1143,13 +1282,34 @@ if msg == ":woozy" or msg == "woozy" then
         say("kokichi is a good boy")
 end
 
+if msg == ":quiz" or msg == ".quiz" then
+        game.Players:Chat(":mymusicon 474333839")
+        game.Players:Chat(":music 474333839")
+        wait(0.1)
+        say("uh oh, someone's been punished, will they:")
+        say("a) leave")
+        say("b) get unpunished")
+        say("c) just awkwardly stay there")
+end
+
+if msg == ":rainbow" or msg == ".rainbow" then
+        game.Players:Chat("gear me 341110180")
+        game.Players:Chat("gear me 158069071")
+        game.Players:Chat("gear me 159229806")
+        game.Players:Chat("gear me 287426148")
+        game.Players:Chat("gear me 215355157")
+        game.Players:Chat("health me 2500")
+        game.Players:Chat("speed me 24")
+        game.Players:Chat("name me Rainbow Warrior")
+        wait(0.1)
+        say("Ready To Taste The Rainbow?")
+end
+
 if msg == "Plug" or msg == "Advertise" then
         game.Players:Chat("!info")
         wait(0.1)
-        game.Players:Chat("m/Miku Is The Best! MikuBomb is a good meme script.")
-        game.Players:Chat("h Spread The Word! MikuBomb For Memes!")
-        say("At Least I don't crash like everyone else.")
-        say("And So What If This Is Skidded. Literally Almost Every Script Is Somewhat Skidded")
+        game.Players:Chat("h MikuBomb Is A Meme Script That Exists.")
+
 end
 
 if msg == ".bonusplay 1" or msg == ".play A" then
@@ -1231,7 +1391,7 @@ if msg == ":actualtimebomb" or msg == "RealTimeBomb" then
         wait(1)
         game.Players:Chat("h/1 Second Left!!!!!")
         wait(1)
-        game.Players:Chat(".shutdown")
+        game.Players:Chat(".bshutdown")
 end
 
 if msg == ":actualtimebomb" or msg == "RealTimeBomb2" then
@@ -1264,7 +1424,7 @@ if msg == ":actualtimebomb" or msg == "RealTimeBomb2" then
         wait(1)
         game.Players:Chat("h/1 Second Left!!!!!")
         wait(1)
-        game.Players:Chat(".shutdown")
+        game.Players:Chat(".bshutdown")
 end
 
 if msg == ":actualtimebomb" or msg == "RealTimeBomb3" then
@@ -1297,7 +1457,7 @@ if msg == ":actualtimebomb" or msg == "RealTimeBomb3" then
         wait(1)
         game.Players:Chat("h/1 Second Left!!!!!")
         wait(1)
-        game.Players:Chat(".shutdown")
+        game.Players:Chat(".bshutdown")
 end
 
 if msg == ":difficulttimebomb" or msg == "HardTimeBomb" then
@@ -1324,7 +1484,7 @@ if msg == ":difficulttimebomb" or msg == "HardTimeBomb" then
         wait(1)
         game.Players:Chat("h/1 Second Left!!!!!")
         wait(1)
-        game.Players:Chat(".shutdown")
+        game.Players:Chat(".bshutdown")
 end
 
 if msg == ":difficulttimebomb" or msg == "HardTimeBomb2" then
@@ -1351,7 +1511,7 @@ if msg == ":difficulttimebomb" or msg == "HardTimeBomb2" then
         wait(1)
         game.Players:Chat("h/1 Second Left!!!!!")
         wait(1)
-        game.Players:Chat(".shutdown")
+        game.Players:Chat(".bshutdown")
 end
 
 if msg == "BombDefused" or msg == "BombWin" then
@@ -1428,7 +1588,7 @@ if msg == ":actualtimebomb" or msg == "CustomTimeBomb" then
         wait(1)
         game.Players:Chat("h/1 Second Left!!!!!")
         wait(1)
-        game.Players:Chat(".shutdown")
+        game.Players:Chat(".bshutdown")
 end
 
 if msg == ":actualtimebomb" or msg == "LongTimeBomb" then
@@ -1479,7 +1639,7 @@ if msg == ":actualtimebomb" or msg == "LongTimeBomb" then
         wait(1)
         game.Players:Chat("h/1 Second Left!!!!!")
         wait(1)
-        game.Players:Chat(".shutdown")
+        game.Players:Chat(".bshutdown")
 end
 
 if msg == ":trueanticrash" or msg == "FAC" then
@@ -1576,7 +1736,7 @@ if msg == ":actualtimebomb" or msg == "WireBomb" then
         wait(1)
         game.Players:Chat("h/1 Second Left!!!!!")
         wait(1)
-        game.Players:Chat(".shutdown")
+        game.Players:Chat(".bshutdown")
 end
 
 if msg == "RedWireCut" or msg == "P1" then
@@ -1610,7 +1770,7 @@ if msg == "BlackWireCut" or msg == "P4" then
         say("You Hesitantly Slice The Black Wire...")
         game.Players:Chat("m/You Hesitantly Slice The Black Wire...")
         wait(5)
-        game.Players:Chat(".shutdown")
+        game.Players:Chat(".bshutdown")
 end
 
 if msg == "FakeBlackWireCut" or msg == "P5" then
@@ -2328,13 +2488,15 @@ end
 		print(prefix.."rjg (Num) -- Rejoin a random server with that set value of players inside of it")
         print("")
         print("----- MikuBomb Originals -----")
+	print(".bshutdown -- Blows Up The Server With A Bomb.")
+	print(":quiz or .quiz -- Please Say This When Someone Gets Punished I Beg You")
         print(".play (A-G) -- Plays Music Found Elsewhere In This Script That Is Normally Hard To Play")
         print(":Playlist -- Plays A List Of Songs Consecutively After Each Other.")
         print("WALL -- No Prefix Needed, Gives You 9 Ice Staffs And A Remote Bomb")
         print("ANGRY -- No Prefix Needed, Gives You 10 Rage Tables To Show Your Anger")
         print("sus -- No Prefix Needed, Makes The Server Into Amogus")
         print(":ddlc -- OH GEEZ WHAT HAPPENED TO YOU SAYORI?!")
-        print("miku or n -- Faster Way Of Saying :mymusicno")
+        print("miku or n -- Faster Way Of Saying :mymusicno, also stops music")
         print("PIANO -- Gives You 10 Orbital Strike Pianos To Smite Down Your Foes.")
         print("afk or brb -- No Prefix Needed, Makes Everyone Aware That You're AFK and still superior")
         print("back -- No Prefix Needed, But Yay I Missed You (Reverts afk)")
@@ -2344,9 +2506,15 @@ end
         print("woozy -- No Prefix Needed, I don't think Kokichi is alright...")
         print("Advertise -- No Prefix Needed, Declares Supremacy Over All Other Scripts (Can be used as comeback)")
         print(".mikufiesta -- Miku Fiesta!!!")
+	print(".justmonika -- PTSD Intensifies")
+	print(":quotes -- Says 3 Random Quotes, Probably Tagged :/")
         print("SimonSays1 -- No Prefix Needed, Requires Input, Attach To BP (hotkey m) When Told To For A Fun Game")
-        print("play (30-35) -- No Prefix Needed, Adds Even More Witty Songs")
-        print(".bombcmds -- Displays Bomb Commands (WIP)")
+	print("disaster1 -- No Prefix Needed, Makes You A King Of The Undead")
+	print("disaster2 -- No Prefix Needed, Gives You A Lot Of Wind-Related Gears")
+	print(".rainbow -- Gives You Some Flashy Looking Rainbow Gears")
+        print("play (30-58) -- No Prefix Needed, Adds Even More Witty Songs")
+        print(".bombcmds -- Displays Bomb Commands In Console")
+	print("-cmds -- Says A Bunch Of Commands Everyone Can Use In Chat")
         print("")
 		print("----- Modded commands -----")
 		for i,v in pairs(api_commands) do
@@ -2357,7 +2525,7 @@ end
 		print("Impuritex#5719 for the rrej cmd")
 		print("")
 		print("----- Versions info -----")
-		print("Current Version - v1.0.1")
+		print("Current Version - v1.1.0")
 	end -- Players.Character.Humanoid.JumpPower = 1000
 
 if string.sub(msg:lower(), 0, 9) == prefix.."bombcmds" then
@@ -2889,6 +3057,140 @@ end
 	game.Players:Chat(":music 5712532551")
         wait(0.1)
         say("Miku's Singing Go Brrrrrrr")
+	end
+	
+    if msg == "play 36" or msg == ".play 36" then
+		game.Players:Chat(":music 1352503699")
+	end
+    if msg == "play 37" or msg == ".play 37" then
+		game.Players:Chat(":music 7031110547")
+	end
+
+    if msg == "play 38" or msg == ".play 38" then
+		game.Players:Chat(":music 5298924498")
+	end
+
+    if msg == "play 39" or msg == ".play 39" then
+		game.Players:Chat(":mymusicon 158313491")
+		game.Players:Chat(":music 158313491")
+	end
+
+    if msg == "play 40" or msg == ".play 40" then
+		game.Players:Chat(":mymusicon 255355162")
+		game.Players:Chat(":music 255355162")
+	end
+
+    if msg == "play 41" or msg == ".play 41" then
+		game.Players:Chat(":music 4271874145")
+	end
+
+    if msg == "play 54" or msg == ".play 54" then
+		game.Players:Chat(":music 3427133961")
+	end
+
+    if msg == "play 42" or msg == ".play 42" then
+        wait(0.1)
+        game.Players:Chat("removehats all")
+        say("Let The Battles Begin!")
+	game.Players:Chat(":music 6128462655")
+        game.Players:Chat("gear all 83704154")
+	end
+
+    if msg == "play 43" or msg == ".play 43" then
+	game.Players:Chat(":mymusicon 684376608")
+	game.Players:Chat(":music 684376608")
+	end
+
+    if msg == "play 44" or msg == ".play 44" then
+	game.Players:Chat(":mymusicon 6306882325")
+	game.Players:Chat(":music 6306882325")
+        wait(0.1)
+        say("Who's Up For Some Ukranian Death Metal?")
+	end
+        if msg == "play 45" or msg == ".play 45" then
+		game.Players:Chat(":mymusicon 2611631909")
+		game.Players:Chat(":music 2611631909")
+	end
+
+    if msg == "play 46" or msg == ".play 46" then
+		game.Players:Chat(":mymusicon 255355179")
+		game.Players:Chat(":music 255355179")
+	end
+
+    if msg == "play 47" or msg == ".play 47" then
+		game.Players:Chat(":mymusicon 526081795")
+		game.Players:Chat(":music 526081795")
+	end
+
+    if msg == "play 48" or msg == ".play 48" then
+	game.Players:Chat(":mymusicon 828172750")
+	game.Players:Chat(":music 828172750")
+        wait(0.1)
+        say("Green Giant :D")
+        game.Players:Chat("name all Giant")
+        game.Players:Chat("paint all green")
+        game.Players:Chat("size all 2.3")
+	end
+
+    if msg == "play 49" or msg == ".play 49" then
+	game.Players:Chat(":mymusicon 3686380403")
+	game.Players:Chat(":music 3686380403")
+        wait(0.1)
+        say("People On This Server Be Like")
+	end
+
+    if msg == "play 50" or msg == ".play 50" then
+		game.Players:Chat(":mymusicon 165798331")
+		game.Players:Chat(":music 165798331")
+	end
+
+    if msg == "play 51" or msg == ".play 51" then
+		game.Players:Chat(":mymusicon 507348073")
+		game.Players:Chat(":music 507348073")
+	end
+
+    if msg == "play 52" or msg == ".play best" then
+	game.Players:Chat(":music 6863583428")
+        game.Players:Chat("size me nan")
+        game.Players:Chat("unsize me")
+        game.Players:Chat("dog me")
+        game.Players:Chat("undog me")
+        game.Players:Chat("rainbowify me")
+        game.Players:Chat("name all EURO BEAT LIVES ON")
+        wait(0.1)
+        say("EURO BEAT NEVER DIES")
+	end
+
+    if msg == "play 53" or msg == ".play 53" then
+		game.Players:Chat(":mymusicon 215761271")
+		game.Players:Chat(":music 215761271")
+	end
+
+    if msg == "play 55" or msg == ".play 55" then
+        wait(0.1)
+        say("Toad Is The Best")
+	game.Players:Chat(":mymusicon 7260925064")
+	game.Players:Chat(":music 7260925064")
+	end
+
+    if msg == "play 56" or msg == ".play 56" then
+        wait(0.1)
+        say("My Brain rn")
+	game.Players:Chat(":mymusicon 901513885")
+	game.Players:Chat(":music 901513885")
+	end
+
+    if msg == "play 57" or msg == ".play 57" then
+        wait(0.1)
+        say("This Remix Is Fire")
+	game.Players:Chat(":mymusicon 928419071")
+	game.Players:Chat(":music 928419071")
+	end
+	
+    if msg == "play 58" or msg == ".play 58" then
+	game.Players:Chat("paint all blue")
+	game.Players:Chat("name all blue")
+	game.Players:Chat(":music 2897610880")
 	end
 	
 	if string.sub(msg:lower(), 0, 10) == prefix.."heykindle" then
