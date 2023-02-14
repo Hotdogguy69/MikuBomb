@@ -1153,7 +1153,7 @@ end
 if msg == "sus" or msg == ":sus" then
 game:GetService'Players':Chat(("name all Sus"))
 game:GetService'Players':Chat(("paint all red"))
-game:GetService'Players':Chat(("music 6119798028"))
+game:GetService'Players':Chat(("music 5799014146"))
 game:GetService'Players':Chat(("m Red Sus Am I Right???"))
 game:GetService'Players':Chat(("gear all 000000000000000000121946387"))
 game:GetService'Players':Chat(("god all"))
