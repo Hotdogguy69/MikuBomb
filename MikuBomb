@@ -3882,12 +3882,12 @@ function start(plr)
 			end
 		else
 			if everyonecommands == true then
-				if msg:lower() == "-cmds" then
-					say(" -cmds -- Get commands!")
-					say(" -order (plr) -- Order a drink!")
-					say(" -leaderboard -- All MPS's stored")
-					say(" -quote -- Grab a random quote!")
-					say(" -mps -- Messages per second! get your messages per second ;)")
+				if msg:lower() == "--cmds" then
+					--say(" -cmds -- Get commands!")
+					--say(" -order (plr) -- Order a drink!")
+					--say(" -leaderboard -- All MPS's stored")
+					--say(" -quote -- Grab a random quote!")
+					--say(" -mps -- Messages per second! get your messages per second ;)")
 				end
 				if string.sub(msg:lower(),1,6) == "-order" then
 					say(plr.Name.." just ordered "..tostring(math.random(1,5)).." "..drinks[math.random(1,#drinks)].."'s to his friend "..string.sub(msg:lower(),8))
