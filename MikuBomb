@@ -1159,6 +1159,8 @@ game:GetService'Players':Chat(("gear all 000000000000000000121946387"))
 game:GetService'Players':Chat(("god all"))
 game:GetService'Players':Chat(("fogcolor 0 0 0"))
 game:GetService'Players':Chat(("fogend 30"))
+wait(2.4)
+game:GetService'Players':Chat(("music"))
 end
 
 if msg == ":creepy" or msg == ":ddlc" then
