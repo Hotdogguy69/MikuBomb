@@ -3882,27 +3882,27 @@ function start(plr)
 			end
 		else
 			if everyonecommands == true then
-				if msg:lower() == "--cmds" then
-					--say(" -cmds -- Get commands!")
-					--say(" -order (plr) -- Order a drink!")
-					--say(" -leaderboard -- All MPS's stored")
-					--say(" -quote -- Grab a random quote!")
-					--say(" -mps -- Messages per second! get your messages per second ;)")
+				if msg:lower() == "-cmds-" then
+					--say(" -cmds- -- Get commands!")
+					--say(" -order- (plr) -- Order a drink!")
+					--say(" -leaderboard- -- All MPS's stored")
+					--say(" -quote- -- Grab a random quote!")
+					--say(" -mps- -- Messages per second! get your messages per second ;)")
 				end
-				if string.sub(msg:lower(),1,6) == "-order" then
+				if string.sub(msg:lower(),1,6) == "-order-" then
 					say(plr.Name.." just ordered "..tostring(math.random(1,5)).." "..drinks[math.random(1,#drinks)].."'s to his friend "..string.sub(msg:lower(),8))
 				end
-				if msg:lower() == "-quote" then
+				if msg:lower() == "-quote-" then
 					say(Quotes[math.random(1,#Quotes)])
 				end
-				if msg:lower() == "-mps" then
+				if msg:lower() == "-mps-" then
 					for i,v in pairs(MPS_Users) do
 						if v == plr.Name then
 							say("Your best MPS was "..MPS_Max[i].." (Even if no one can see the message it will still count)")
 						end
 					end
 				end
-				if msg:lower() == "-leaderboard" then
+				if msg:lower() == "-leaderboard-" then
 					for i,v in pairs(MPS_Users) do
 						say(MPS_Users[i].." Current MPS: "..MPS[i].." MPS: "..MPS_Max[i])
 					end
